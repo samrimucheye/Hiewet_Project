@@ -18,9 +18,6 @@ const NavBar = () => {
         <li>
           <a href="/contact">צור קשר</a>
         </li>
-        <li>
-          <a href="#">הירשם</a>
-        </li>
       </ul>
     </nav>
   );
