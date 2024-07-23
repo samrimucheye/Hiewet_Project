@@ -1,29 +1,10 @@
 import React from "react";
+import NavBar from "./components/NavBar";
 const App = () => {
   return (
     <div className="App">
       <header>
-        <nav>
-          <div>
-            <h1>
-              <strong>הייווט דלתות</strong>
-            </h1>
-          </div>
-          <ul>
-            <li>
-              <a href="#">דף הבית </a>
-            </li>
-            <li>
-              <a href="#">עלינו</a>
-            </li>
-            <li>
-              <a href="#">צור קשר</a>
-            </li>
-            <li>
-              <a href="#">הירשם</a>
-            </li>
-          </ul>
-        </nav>
+        <NavBar />
       </header>
       <main>
         <section>תוכן</section>
