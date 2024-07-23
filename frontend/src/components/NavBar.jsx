@@ -10,16 +10,13 @@ const NavBar = () => {
       </div>
       <ul>
         <li>
-          <a href="#">דף הבית </a>
+          <a href="/">דף הבית </a>
         </li>
         <li>
-          <a href="#">עלינו</a>
+          <a href="/about">עלינו</a>
         </li>
         <li>
-          <a href="#">צור קשר</a>
-        </li>
-        <li>
-          <a href="#">הירשם</a>
+          <a href="/contact">צור קשר</a>
         </li>
       </ul>
     </nav>
