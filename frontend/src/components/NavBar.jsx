@@ -13,12 +13,15 @@ const NavBar = () => {
         <li>
           <Link to="/">דף הבית </Link>
         </li>
+        |
         <li>
           <Link to="/about">עלינו</Link>
         </li>
+        |
         <li>
           <Link to="/contact">צור קשר</Link>
         </li>
+        |
       </ul>
     </nav>
   );
