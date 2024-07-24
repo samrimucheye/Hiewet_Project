@@ -8,8 +8,8 @@ const Contact = () => {
         <input type="text" name="text" id="text" placeholder="תזין שם" />
         <input type="email" name="email" id="email" placeholder="אימייל" />
         <textarea
-          name=""
-          id=""
+          name="textarea"
+          id="textarea"
           cols="30"
           rows="10"
           placeholder="נא  למלא את הודעתך"
