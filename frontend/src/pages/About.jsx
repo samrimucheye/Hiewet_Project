@@ -27,7 +27,7 @@ const About = () => {
             מתהליך נעים, מתוצאות מושלמות והכי חשוב ראש שקט.
           </p>
         </section>
-        <section>
+        <section id="image">
           <img
             src="https://media.istockphoto.com/id/1399424424/photo/shallow-focus-of-the-keyhole-seen-on-a-newly-fitted-double-glazed-generic-door.webp?b=1&s=170667a&w=0&k=20&c=b2MvjjdUnpeSIPTHnFqRha3Wq4Dw0Qi7VzPbOrsr8DM="
             alt="door"
