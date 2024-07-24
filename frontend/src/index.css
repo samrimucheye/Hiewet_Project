@@ -49,7 +49,8 @@ nav {
 }
 nav,
 section,
-article {
+article,
+.div_contact {
   max-width: 1200px;
   background-color: red;
   margin: auto;
@@ -86,4 +87,24 @@ article h1 {
   justify-content: center;
   align-items: center;
   gap: 6px;
+}
+
+/*contact */
+
+.div_contact {
+  background-color: gold;
+  margin-block-start: 2em;
+}
+.div_contact h1 {
+  text-align: center;
+}
+.div_contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 12px;
+}
+::placeholder {
+  text-align: center;
 }
